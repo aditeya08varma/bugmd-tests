@@ -4,7 +4,7 @@ Playwright end-to-end test suite for the BugMD Pest Defense Pro quiz funnel on S
 
 ## 📊 Live Test Report
 
-👉 **[View Full Report](https://aditeya08varma.github.io/bugmd-tests/)**
+👉 **[View Full Report](https://aditeya08varma.github.io/bugmd-tests/playwright-report/)**
 
 99 tests · 3 devices · 0 failures
 
