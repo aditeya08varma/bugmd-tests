@@ -1,0 +1,16 @@
+{
+  "name": "bugmd-funnel-tests",
+  "version": "1.0.0",
+  "description": "End-to-end Playwright tests for the BugMD quiz funnel",
+  "scripts": {
+    "test": "npm run test:chrome & npm run test:safari & npm run test:android & wait",
+    "test:chrome": "playwright test --project=\"Desktop Chrome\"",
+    "test:safari": "playwright test --project=\"Mobile Safari\"",
+    "test:android": "playwright test --project=\"Mobile Chrome\"",
+    "test:headed": "playwright test --headed --project=\"Desktop Chrome\"",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
